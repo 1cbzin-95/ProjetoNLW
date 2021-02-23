@@ -1,0 +1,11 @@
+ -- migrando nosso projeto do react puro pro next
+ criando projeto novo:
+ $ npx create-next-app frontend-next
+
+removendo coisas quen não vamos utilizar, readme, pasta styles, pasta public os logos;
+psta pages -api,todo html do do index que é arquivo principal
+
+-- Instalando typescript na aplicação next, troca as extenções js por tsx
+$ npm install typescript @types/react @types/react-dom @types/node -D
+
+rodar: $ npm run dev
