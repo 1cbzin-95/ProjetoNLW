@@ -1,0 +1,10 @@
+Componentes:
+* No react nunca posso ter varios componnetes 1 abaixo do outro sem ter um elemento em volta deles;
+* Para enchergar um componenete basata ver qual elemento esta se tornando repetitivo dentro de um codigo;
+
+Propriedades:
+* São formas de passar informações para os nossos componentes;
+* Criar dentro do componenete uma interface com as propriedades aceitaveis;
+
+# Boas praticas de css variaveis de cores que se repetem é bomn definilas em variaveis
+1:25
