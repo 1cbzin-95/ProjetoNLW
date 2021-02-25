@@ -1,0 +1,2 @@
+-- Css module, ja vem com o nexté uma forma que agente utiliza css, conseguindo sendo disponibilizado so pra 1 componente.
+vamos até styles e vamos criar o csss de cada componente aula2 35:oo

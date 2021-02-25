@@ -8,4 +8,30 @@ psta pages -api,todo html do do index que é arquivo principal
 -- Instalando typescript na aplicação next, troca as extenções js por tsx
 $ npm install typescript @types/react @types/react-dom @types/node -D
 
-rodar: $ npm run dev
+rodar: $ npm run dev   min 28:40
+* Tudo que é globalmente utilizado jogamos em  _app.tsx
+* importar fontes, importar dentro do arquivo principal index, usando a tag head do next e importando e colocando dentro dela;
+essa tag head vai automaticamenet para todo html do nosso codigo;
+<Head>
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rajdhani:wght@600&display=swap" rel="stylesheet" />
+</Head>
+POdemos colocar também no document e é o idel pq ele so carrega 1 vez durante 1 vizita de um usuario em uma aplicação:
+import Document,{Html,Head,Main,NextScript} from 'next/document';
+
+export default class MyDocument extends Document{
+    render(){
+        return(
+            <Html>
+                <Head>
+                    <link rel="preconnect" href="https://fonts.gstatic.com" />
+                    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rajdhani:wght@600&display=swap" rel="stylesheet" />
+                </Head>
+                <body>
+                    <Main />
+                    <NextScript />
+                </body>
+            </Html>
+        );
+    }
+}

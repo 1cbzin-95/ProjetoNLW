@@ -1,0 +1,46 @@
+/* @value write:#fff;
+@value background:#F2F3F5;
+@value gray-line:#DCDDE0;
+@value text:#666666;
+@value text-hightlight:#B3B9FF;
+@value title:#2E384D;
+@value red:#E83F5B;
+@value green:#4CD62B;
+@value blue:#5965E0;
+@value blue-dark:#4953B8;
+@value blue-twiter:#2AA9E0; */
+
+.experienceBar{
+    display: flex;
+    align-items: center;
+}
+.experienceBar span {
+    font-size: 1rem;
+}
+.experienceBar > div{
+    flex: 1;
+    height: 4px;
+    border-radius: 4px;
+    background:#DCDDE0;
+    margin: 0 1.5rem;
+    position: relative;
+}
+.experienceBar > div > div{
+    height: 4px;
+    border-radius: 4px;
+    background:#4CD62B;
+}
+/* .container{
+    height: 100vh;
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+} */
+span.currentExperience{
+    position: absolute;
+    top: 12px;
+    transform: translateX(-50%);
+}
